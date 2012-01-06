@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+}
+
+#main {
+  margin: 0px auto;
+  padding: 0px;
+  padding-top: 20px;
+
+  text-align: center;
+  width: 400px;
+  height: 410px;
+}
+
+#intro img {
+  margin-bottom: 15px;
+}
+
+#questions {
+  display: none;
+}
+
+#outro {
+  display: none;
+}
+
+.clearBoth {
+  clear:both;
+}
+
+#result {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.cover {
+  float: left;
+  background-color: #eeeeee;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-position: 50% 50%;
+  background-size: 60px 60px;
+
+  box-sizing: border-box;
+  box-shadow: 0 1px 2px #888;
+
+  border: 2.5px solid rgba(0,0,0,0.7);
+  border-radius: 5px;
+
+  -webkit-transition: 0.2s ease;
+}
+
+.cover:hover {
+  border-width: 10px;
+  border-style: double;
+
+  -webkit-transition-duration: 0.5s;
+}
+
+.cover:active {
+  border-width: 2.5px;
+
+  -webkit-transition-duration: 0.1s;
+}
+
+@-webkit-keyframes pulse {
+  from { box-shadow: 0 0 5px #777; }
+  to { box-shadow: 0 0 20px #222; }
+}
+
+div#cover {
+  background-color: #eeeeee;
+  display: inline-block;
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-position: 50% 50%;
+  background-size: 200px 200px;
+
+  box-sizing: border-box;
+
+  border: 5px solid rgba(0,0,0,0.7);
+  border-radius: 10px;
+
+  -webkit-animation: pulse 1s infinite alternate ease-in-out;
+  -webkit-transform: rotateY(180deg);
+}
+
+button.clean {
+  background-color: #eeeeee;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #cccccc));
+  background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
+  border: 1px solid #ccc;
+  border-bottom: 1px solid #bbb;
+  -webkit-border-radius: 3px;
+  color: #333;
+  font: bold 11px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  line-height: 1;
+  padding: 8px 0;
+  text-align: center;
+  text-shadow: 0 1px 0 #eee;
+  width: 150px;
+}
+
+button.clean:hover {
+  background-color: #dddddd;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #dddddd), color-stop(100%, #bbbbbb));
+  background-image: -webkit-linear-gradient(top, #dddddd, #bbbbbb);
+  border: 1px solid #bbb;
+  border-bottom: 1px solid #999;
+  cursor: pointer;
+  text-shadow: 0 1px 0 #ddd;
+}
+
+button.clean:active {
+  border: 1px solid #aaa;
+  border-bottom: 1px solid #888;
+  -webkit-box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee;
+}

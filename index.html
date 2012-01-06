@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="sp://import/css/eve.css">
+  <link rel="stylesheet" href="css/master.css">
+</head>
+<body onload="getSpotifyApi(1).require('js/script').init();">
+  <div id="main">
+    <div id="intro">
+      <h1>Answer 9 questions, that test your knowledge of album covers, correctly and as fast as possible!</h1><br/>
+      <img src="img/preview.png" />
+      <button class="clean start">Start</button>
+    </div>
+    <div id="questions">
+      <h1>Which artist created the album with this cover?</h1>
+      <div id="cover"></div><br/>
+      <button class="answer clean">This</button>
+      <button class="answer clean">That</button><br/>
+      <button class="answer clean">Them</button>
+      <button class="answer clean">Thaw</button>
+    </div>
+    <div id="outro">
+      <h1>Best: <span id="best">0</span></h1>
+      <div id="result">
+        <a class="cover"></a>
+        <a class="cover"></a>
+        <a class="cover"></a><br class="clearBoth"/>
+        <a class="cover"></a>
+        <a class="cover"></a>
+        <a class="cover"></a><br class="clearBoth"/>
+        <a class="cover"></a>
+        <a class="cover"></a>
+        <a class="cover"></a>
+      </div><br class="clearBoth" />
+      <h1>Score: <span id="score">0</span></h1>
+      <p><button class="clean start">Try again</button></p>
+    </div>
+  </div>
+</body>
+</html>

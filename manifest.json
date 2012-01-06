@@ -1,0 +1,15 @@
+{
+  "BundleType": "Application",
+  "AppIcon": {
+    "18x18": "img/icon.png"
+  },
+  "AppName": {
+    "en": "Quizzle"
+  },
+  "SupportedLanguages": [
+    "en"
+  ],
+  "RequiredPermissions": [
+    "https://www.googleapis.com"
+  ]
+}
