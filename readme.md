@@ -3,7 +3,7 @@ This is a Spotify app that tests your knowledge of album covers in your library.
 
 Note that you need to have a [Spotify developer account](http://developer.spotify.com/en/spotify-apps-api/developer-signup/).
 
-![Screenshot of the app](http://i.imgur.com/4zl2M.png)
+![Screenshot of the app](http://i.imgur.com/GUWpb.png)
 
 ##Installation
 ###Mac/Unix
