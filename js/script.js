@@ -1,3 +1,7 @@
+/*
+Note: Some of this code was written in at 4 am, and may thus not be of the highest quality.
+*/
+
 var sp = getSpotifyApi(1);
 var models = sp.require('sp://import/scripts/api/models');
 var player = models.player;
