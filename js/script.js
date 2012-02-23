@@ -1,5 +1,5 @@
 /*
-Note: Some of this code was written in at 4 am, and may thus not be of the highest quality.
+Note: Most of this code was written between 1 and 4 am, and may thus not be of the highest quality.
 */
 
 var sp = getSpotifyApi(1);
