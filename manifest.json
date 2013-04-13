@@ -1,6 +1,6 @@
 {
   "BundleType": "Application",
-  "BundleIdentifier": "Quizzle",
+  "BundleIdentifier": "quizzle",
   "AppIcon": {
     "18x18": "img/icon.png"
   },
