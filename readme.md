@@ -1,7 +1,7 @@
 #Quizzle
 This is a Spotify app that tests your knowledge of album covers in your library.
 
-Note that you need to have a [Spotify developer account](http://developer.spotify.com/en/spotify-apps-api/developer-signup/).
+Note that you need to have a [Spotify developer account](https://developer.spotify.com/).
 
 ![Screenshot of the app](http://i.imgur.com/GUWpb.png)
 
